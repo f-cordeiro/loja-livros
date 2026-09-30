@@ -1,0 +1,408 @@
+.sobre-page {
+    min-height: calc(100vh - 78px);
+
+    padding: 65px 0 90px;
+
+    background:
+        radial-gradient(
+            circle at top,
+            rgba(215, 168, 110, 0.08),
+            transparent 35%
+        ),
+        #12100f;
+}
+
+.sobre-container {
+    max-width: 1050px !important;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.sobre-hero {
+    text-align: center;
+
+    max-width: 800px;
+
+    margin: 0 auto 65px;
+}
+
+.sobre-logo {
+    width: 70px;
+    height: 70px;
+
+    margin: 0 auto 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 20px;
+
+    background:
+        rgba(215, 168, 110, 0.1);
+
+    border: 1px solid
+        rgba(215, 168, 110, 0.2);
+
+    color: #d7a86e;
+
+    font-size: 30px;
+}
+
+.sobre-title {
+    font-size: clamp(38px, 5vw, 56px) !important;
+
+    font-weight: 900 !important;
+
+    color: #f5f1e8;
+}
+
+.sobre-title span {
+    color: #d7a86e;
+}
+
+.sobre-subtitle {
+    max-width: 650px;
+
+    margin: 17px auto 0 !important;
+
+    color: #9b938c;
+
+    font-size: 17px !important;
+
+    line-height: 1.7 !important;
+}
+
+/* =========================
+   INTRO
+========================= */
+
+.sobre-intro {
+    padding: 38px;
+
+    margin-bottom: 55px;
+
+    border-radius: 18px;
+
+    background: #1b1715;
+
+    border: 1px solid
+        rgba(255, 255, 255, 0.07);
+}
+
+.sobre-section-title {
+    margin-bottom: 20px !important;
+
+    color: #f5f1e8;
+
+    font-size: 28px !important;
+
+    font-weight: 900 !important;
+}
+
+.sobre-text {
+    color: #9b938c;
+
+    font-size: 16px !important;
+
+    line-height: 1.8 !important;
+
+    margin-bottom: 14px !important;
+}
+
+.sobre-text:last-child {
+    margin-bottom: 0 !important;
+}
+
+/* =========================
+   FUNCIONALIDADES
+========================= */
+
+.sobre-features {
+    margin-bottom: 60px;
+}
+
+.sobre-feature-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+    gap: 22px;
+}
+
+.sobre-feature-card {
+    min-height: 250px;
+
+    background: #1b1715 !important;
+
+    border: 1px solid
+        rgba(255, 255, 255, 0.07) !important;
+
+    border-radius: 16px !important;
+
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease !important;
+}
+
+.sobre-feature-card:hover {
+    transform: translateY(-6px);
+
+    border-color:
+        rgba(215, 168, 110, 0.3) !important;
+}
+
+.sobre-feature-card
+    .MuiCardContent-root {
+    height: 100%;
+
+    padding: 28px !important;
+}
+
+.sobre-feature-icon {
+    width: 52px;
+    height: 52px;
+
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 14px;
+
+    background:
+        rgba(215, 168, 110, 0.1);
+
+    color: #d7a86e;
+
+    font-size: 21px;
+}
+
+.sobre-feature-title {
+    color: #f5f1e8;
+
+    font-size: 19px !important;
+
+    font-weight: 800 !important;
+}
+
+.sobre-feature-text {
+    margin-top: 10px !important;
+
+    color: #8f8882;
+
+    font-size: 14px !important;
+
+    line-height: 1.7 !important;
+}
+
+/* =========================
+   TECNOLOGIAS
+========================= */
+
+.sobre-tech {
+    margin-bottom: 60px;
+
+    padding: 35px;
+
+    border-radius: 18px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #1d1815,
+            #171311
+        );
+
+    border: 1px solid
+        rgba(215, 168, 110, 0.12);
+}
+
+.sobre-tech-list {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+.sobre-tech-list span {
+    padding: 9px 15px;
+
+    border-radius: 30px;
+
+    background:
+        rgba(215, 168, 110, 0.08);
+
+    border: 1px solid
+        rgba(215, 168, 110, 0.14);
+
+    color: #d7a86e;
+
+    font-size: 13px;
+
+    font-weight: 700;
+}
+
+/* =========================
+   AÇÕES
+========================= */
+
+.sobre-actions {
+    padding: 45px;
+
+    margin-bottom: 40px;
+
+    text-align: center;
+
+    border-radius: 20px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #2a211c,
+            #191512
+        );
+
+    border: 1px solid
+        rgba(215, 168, 110, 0.18);
+}
+
+.sobre-action-title {
+    color: #f5f1e8;
+
+    font-size: 30px !important;
+
+    font-weight: 900 !important;
+}
+
+.sobre-action-text {
+    max-width: 600px;
+
+    margin: 12px auto 25px !important;
+
+    color: #9b938c;
+
+    line-height: 1.7 !important;
+}
+
+.sobre-buttons {
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+}
+
+.sobre-button-primary {
+    min-height: 46px;
+
+    padding: 10px 22px !important;
+
+    border-radius: 10px !important;
+
+    background: #d7a86e !important;
+
+    color: #17120f !important;
+
+    font-weight: 800 !important;
+}
+
+.sobre-button-primary:hover {
+    background: #e5b97e !important;
+}
+
+.sobre-button-secondary {
+    min-height: 46px;
+
+    padding: 10px 22px !important;
+
+    border-radius: 10px !important;
+
+    border-color:
+        rgba(215, 168, 110, 0.5) !important;
+
+    color: #d7a86e !important;
+
+    font-weight: 800 !important;
+}
+
+.sobre-button-secondary:hover {
+    background:
+        rgba(215, 168, 110, 0.08) !important;
+}
+
+/* =========================
+   FONTE
+========================= */
+
+.sobre-source {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 12px;
+
+    flex-wrap: wrap;
+
+    padding-top: 25px;
+
+    border-top: 1px solid
+        rgba(255, 255, 255, 0.07);
+}
+
+.sobre-source p {
+    color: #706a65;
+
+    font-size: 13px;
+}
+
+.sobre-source-button {
+    color: #d7a86e !important;
+
+    font-weight: 700 !important;
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+@media (max-width: 800px) {
+    .sobre-feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .sobre-intro,
+    .sobre-tech,
+    .sobre-actions {
+        padding: 28px;
+    }
+}
+
+@media (max-width: 550px) {
+    .sobre-page {
+        padding: 40px 0 60px;
+    }
+
+    .sobre-buttons {
+        flex-direction: column;
+    }
+
+    .sobre-button-primary,
+    .sobre-button-secondary {
+        width: 100%;
+    }
+
+    .sobre-source {
+        flex-direction: column;
+        text-align: center;
+    }
+}
